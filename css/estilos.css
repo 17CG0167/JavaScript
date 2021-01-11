@@ -48,3 +48,46 @@ body{
     display: 
     none;
 }
+#Elemento{
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    background-color: white;
+}
+#Elemento h2{
+    color: #4d4d4d;
+    padding-top: 20px;
+    font-size: 2rem;
+}
+#Opciones{
+    position: absolute;
+    width: 200px;
+    min-height: 300px;
+    top: 50px;
+    right: 200px;
+}
+#Opciones ul li{
+    list-style: none;
+    width:100%;
+    display: block;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+}
+#Opciones ul li:hover{
+    cursor: move;
+    border: 3px dashed red;
+}
+#Opciones ul li h2{
+    font-size: 4rem;
+    color: #4d4d4d ;
+    padding-top:30px;
+    text-align: center;
+}
